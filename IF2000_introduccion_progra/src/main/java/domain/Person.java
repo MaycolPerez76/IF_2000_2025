@@ -23,6 +23,10 @@ public class Person {
        this.phone = phone;
     }
 
+    public Person() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public String getName() {
         return name;
     }
@@ -63,7 +67,11 @@ public class Person {
         this.phone = phone;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" + "name=" + getName() + ", last_name=" + getLast_name() + ", id=" + getId() + ", age=" + getAge() + ", phone=" + getPhone() + '}';
+    }
 
-     
+
      
 }
