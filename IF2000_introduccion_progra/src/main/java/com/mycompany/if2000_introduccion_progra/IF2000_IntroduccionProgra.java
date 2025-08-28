@@ -10,6 +10,7 @@ package com.mycompany.if2000_introduccion_progra;
  */
 import Logic.Ejercicios_Semana_2_PracticasEnClase;
 import Logic.Lab1_ejercicios;
+import Logic.laboratorio_2;
 import domain.Person;
 import java.util.Scanner;
 
@@ -21,20 +22,12 @@ public class IF2000_IntroduccionProgra {
      Ejercicios_Semana_2_PracticasEnClase ej = new Ejercicios_Semana_2_PracticasEnClase();
      Lab1_ejercicios lab = new Lab1_ejercicios();
         
-        
      
-     
-     
+     /* 
         //"______________________________EJERCICIO_A______________________________:" 
-        lab.ejercicio_A_algoritmo(5);
+     lab.ejercicio_A_algoritmo(5);
         //"______________________________EJERCICIO_B______________________________:" 
-        lab.ejercicio_B_algoritmo(7);
-     
-        
-        
-        
-        
-     
+     lab.ejercicio_B_algoritmo(7);
         //"______________________________EJERCICIO_D______________________________:" 
            int[] arreglo = new int[10];
        lab.ejercicio_D_array(arreglo, sc);
@@ -42,17 +35,31 @@ public class IF2000_IntroduccionProgra {
         for (int num : arreglo) {
             System.out.print(num + " ");
         }     
-        
         //"______________________________EJERCICIO_E______________________________:"
-       lab.ejercicio_E_array();      
-        
+       lab.ejercicio_E_array();       
          //"______________________________EJERCICIO_F______________________________:"        
        lab.ejercicio_F_tablero();
+      */  
         
-        
-
-        
+     
+     
+     
+     
+     
  
-        
+       ej.esParoImpar(67);  
+       ej.valorAbsoluto(-42);
+       ej.sumaNumeros(sc);
+       ej.numerosAscendentes(sc);
+       ej.operarDosNumeros(sc);
+       ej.detectarNotaDiez(sc);
+ej.calcularPulsaciones(sc);
+ej.calcularUtilidad(sc);
+ej.verificarPrimo(sc);
+ej.calcularCompraComputadoras(sc);
+ej.listarPrimosHastaN(sc);
+ej.areaTriangulo(sc);
+    
+    
     }
 }

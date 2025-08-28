@@ -134,9 +134,9 @@ public class Lab1_ejercicios {
             }
         }
         for (int fila = 0; fila < 3; fila++) {
-            for (int col = 0; col < 8; col++) {
-                if ((fila + col) % 2 == 0) {
-                    tablero[fila][col] = 'N';
+            for (int columna = 0; columna < 8; columna++) {
+                if ((fila + columna) % 2 == 0) {
+                    tablero[fila][columna] = 'N';
                 }
             }
         }
@@ -149,20 +149,40 @@ public class Lab1_ejercicios {
             }
         }
         System.out.print("  ");
-        for (int col = 1; col <= 8; col++) {
-            System.out.print(col + " ");
+        for (int columna = 1; columna <= 8; columna++) {
+            System.out.print(columna + " ");
         }
         System.out.println();       
-        char[] letrasFilas = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
+        char[] letraizq = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};
         for (int fila = 0; fila < 8; fila++) {
-            System.out.print(letrasFilas[fila] + " ");
-            for (int col = 0; col < 8; col++) {
-                System.out.print(tablero[fila][col] + " ");
+            System.out.print(letraizq[fila] + " ");
+            for (int columna = 0; columna < 8; columna++) {
+                System.out.print(tablero[fila][columna] + " ");
             }
             System.out.println();
         }        
      }
+         public void ejercicio_quiz_3 (int n) {
+              System.out.println(" ");
+               System.out.println("______________________________EJERCICIO_QUIZ_3______________________________:");            
+          for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+          
+                if (i == 0 || i == n - 1 || j == 0 || j == n - 1) {
+                    System.out.print("*");
+                } else if (i == n / 2 && j == n / 2) {
+                    System.out.print("*"); 
+                } else {
+                    System.out.print(" "); 
+                }
+            }
+            System.out.println(); 
+            System.out.println(" "); 
+        }
+    }
          
+
+
          
          
          
