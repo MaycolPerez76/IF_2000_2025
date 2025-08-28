@@ -10,7 +10,6 @@ package com.mycompany.if2000_introduccion_progra;
  */
 import Logic.Ejercicios_Semana_2_PracticasEnClase;
 import Logic.Lab1_ejercicios;
-import Logic.laboratorio_2;
 import domain.Person;
 import java.util.Scanner;
 
@@ -23,12 +22,17 @@ public class IF2000_IntroduccionProgra {
      Lab1_ejercicios lab = new Lab1_ejercicios();
         
      
-     /* 
-        //"______________________________EJERCICIO_A______________________________:" 
+     
+     
+     
+        //"______________________________LAB1_EJERCICIOS______________________________:" 
+                //"______________________________EJERCICIO_A______________________________:"
      lab.ejercicio_A_algoritmo(5);
-        //"______________________________EJERCICIO_B______________________________:" 
+             //"______________________________EJERCICIO_B______________________________:"
      lab.ejercicio_B_algoritmo(7);
-        //"______________________________EJERCICIO_D______________________________:" 
+        //"______________________________EJERCICIO_C______________________________:"
+     lab.ejercicio_C_algoritmo(4);
+             //"______________________________EJERCICIO_D______________________________:"
            int[] arreglo = new int[10];
        lab.ejercicio_D_array(arreglo, sc);
                 System.out.println("Array ordenado:");
@@ -39,25 +43,34 @@ public class IF2000_IntroduccionProgra {
        lab.ejercicio_E_array();       
          //"______________________________EJERCICIO_F______________________________:"        
        lab.ejercicio_F_tablero();
-      */  
         
      
-     
-     
-     
-     
  
+     
+        //"______________________________EJERCICIOS_SEMANA_2______________________________:" 
+                 //"______________________________EJERCICIO_1______________________________:"   
        ej.esParoImpar(67);  
+                        //"______________________________EJERCICIO_2______________________________:"   
        ej.valorAbsoluto(-42);
+                        //"______________________________EJERCICIO_3______________________________:"   
        ej.sumaNumeros(sc);
+                        //"______________________________EJERCICIO_4______________________________:"   
        ej.numerosAscendentes(sc);
+                        //"______________________________EJERCICIO_5______________________________:"   
        ej.operarDosNumeros(sc);
+                        //"______________________________EJERCICIO_6______________________________:"   
        ej.detectarNotaDiez(sc);
+                        //"______________________________EJERCICIO_7______________________________:"   
 ej.calcularPulsaciones(sc);
+                 //"______________________________EJERCICIO_8______________________________:"   
 ej.calcularUtilidad(sc);
+                 //"______________________________EJERCICIO_9______________________________:"   
 ej.verificarPrimo(sc);
+                 //"______________________________EJERCICIO_10______________________________:"   
 ej.calcularCompraComputadoras(sc);
+                 //"______________________________EJERCICIO_11______________________________:"   
 ej.listarPrimosHastaN(sc);
+                 //"______________________________EJERCICIO_12______________________________:"   
 ej.areaTriangulo(sc);
     
     
