@@ -10,6 +10,7 @@ package com.mycompany.if2000_introduccion_progra;
  */
 import Logic.Ejercicios_Semana_2_PracticasEnClase;
 import Logic.Lab1_ejercicios;
+import Logic.laboratorio_2;
 import domain.Person;
 import java.util.Scanner;
 
@@ -20,11 +21,11 @@ public class IF2000_IntroduccionProgra {
      Person p = new Person("Yuli", "Solis", 1245432, 20, 23422345);
      Ejercicios_Semana_2_PracticasEnClase ej = new Ejercicios_Semana_2_PracticasEnClase();
      Lab1_ejercicios lab = new Lab1_ejercicios();
-        
+     laboratorio_2 lab2 = new laboratorio_2();
      
      
      
-     
+ 
         //"______________________________LAB1_EJERCICIOS______________________________:" 
                 //"______________________________EJERCICIO_A______________________________:"
      lab.ejercicio_A_algoritmo(5);
@@ -43,9 +44,11 @@ public class IF2000_IntroduccionProgra {
        lab.ejercicio_E_array();       
          //"______________________________EJERCICIO_F______________________________:"        
        lab.ejercicio_F_tablero();
-        
+    
      
- 
+     
+     
+     
      
         //"______________________________EJERCICIOS_SEMANA_2______________________________:" 
                  //"______________________________EJERCICIO_1______________________________:"   
@@ -72,7 +75,27 @@ ej.calcularCompraComputadoras(sc);
 ej.listarPrimosHastaN(sc);
                  //"______________________________EJERCICIO_12______________________________:"   
 ej.areaTriangulo(sc);
+
     
-    
+
+
+        //"______________________________EJERCICIOS_LABORATORIO_2______________________________:"
+lab2.sumaPares(sc);
+lab2.celsiusAFahrenheit(sc);
+lab2.calcularPotencia(2,4);
+lab2.obtenerMes(sc);
+lab2.evaluarFuncion(5);
+lab2.areaTriangulo(sc);
+lab2.intercambioDeValor(sc);
+lab2.ecuacionRecta(2, 3, 4, 5);
+lab2.sumaNaturalesK(sc);
+lab2.calcularPromedio(sc);
+lab2.visualizarLista(sc);
+lab2.parImparRandom();
+lab2.sumaCuadradosPrimeros100();
+lab2.factorial(sc);
+lab2.valorMaximo(sc);
+
+
     }
 }
