@@ -12,20 +12,43 @@ import Logic.Ejercicios_Semana_2_PracticasEnClase;
 import Logic.Lab1_ejercicios;
 import Logic.laboratorio_2;
 import domain.Person;
+import domain.SavingAccount;
 import java.util.Scanner;
 
 public class IF2000_IntroduccionProgra {
     public static void main (String args[]) { 
         Scanner sc = new Scanner(System.in);
         // CLASES:
-     Person p = new Person("Yuli", "Solis", 1245432, 20, 23422345);
      Ejercicios_Semana_2_PracticasEnClase ej = new Ejercicios_Semana_2_PracticasEnClase();
      Lab1_ejercicios lab = new Lab1_ejercicios();
      laboratorio_2 lab2 = new laboratorio_2();
      
      
+             Person client1 = 
+        new Person("Yuli", "Solis", 1245432, 20, 23422345);
+        
+        SavingAccount account1 = 
+        new SavingAccount("2025-09-04", 12, 5, "1000567801", 25000, client1);
+        
+        account1.deposit(3000);
+        
+        
+        
+        System.out.println(account1.toString());
+        
+        System.out.println("\n\n\n--------------------------------------------");
+        System.out.println("Withdraw of money");
+        System.out.println("--------------------------------------------\n\n");
+        
+        account1.withdraw(16000);
+        
+        System.out.println(account1.toString());
      
- 
+     
+     
+     
+     
+ /*
         //"______________________________LAB1_EJERCICIOS______________________________:" 
                 //"______________________________EJERCICIO_A______________________________:"
      lab.ejercicio_A_algoritmo(5);
@@ -95,7 +118,7 @@ lab2.parImparRandom();
 lab2.sumaCuadradosPrimeros100();
 lab2.factorial(sc);
 lab2.valorMaximo(sc);
-
+*/
 
     }
 }
